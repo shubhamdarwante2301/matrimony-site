@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 0 2rem;
+}
+.logo {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.right-menu {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.right-menu > a, select {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: black;
+}
+.right-menu select {
+    border: none;
+}
+.right-menu > a:hover {
+    color: orange;
+}
+.right-menu img {
+    border-radius: 50%;
+}
+.profile-menu ul li {
+    list-style-type: none;
+    padding: 0.5rem 0;
+}
+.profile-menu ul li:hover a {
+    color: orange;
+}
+.profile-menu a {
+    text-decoration: none;
+    color: black;
+    margin-left: 0.5rem;
+}
+.profile-menu i {
+    color: orange;
+}
+.dropdown-menu {
+    padding: 0 1rem;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    display: none;
+}
+.profile-menu:hover .dropdown-menu {
+    display: block;
+}
+/* main-content */
+.main-content {
+    background-color: rgb(246, 246, 246);
+    padding: 1rem 2rem;
+    width: 100vw;
+}
+.content {
+    background-color: white;
+    padding: 1rem;
+}
+.heading {
+    background-color: orange;
+    color: white;
+    padding: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading .edit-btn {
+    background-color: white;
+    color: orange;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
+.section-heading {
+    margin-top: 1rem;
+    font-weight: 600;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    width: 100%;
+}
+.flex-item {
+    width: 25%;
+    padding-left: 0.5rem;
+}
+.feed {
+    margin-top: 1rem;
+}
+.color-gray {
+    color: rgba(92, 92, 92, 0.944);
+}
+.profile {
+    width: 100%;
+}
+.profile img {
+    width: min(180px, 100%);
+}
+.select-image {
+    display: flex;
+    max-width: 180px;
+}
+.select-image .image {
+    flex-grow: 1;
+    margin: 0.5rem;
+}
+.image img {
+    width: 100%;
+}
+/* Horoscope chart */
+.chart {
+    border-collapse: collapse;
+}
+.chart-item {
+    width: 50%;
+}
+.chart td {
+    padding: 1rem;
+    text-align: center;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    padding: 1rem 2rem;
+    color: white;
+}

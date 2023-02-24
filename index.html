@@ -1,346 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Fontawsome CDN -->
-    <script src="https://kit.fontawesome.com/ac683faef9.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/ac683faef9.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Style sheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Navbar -->
     <nav class="navbar">
-        <div class="logo">
-            Matrimony
+      <div class="logo">Matrimony</div>
+      <div class="right-menu">
+        <a href="#">Home</a>
+        <a href="#">Search</a>
+        <a href="#">Pricing Plan</a>
+        <a href="#">Contact Us</a>
+        <select name="language">
+          <option value="english">EN</option>
+          <option value="marathi">MR</option>
+          <option value="hindi">HI</option>
+        </select>
+        <div class="profile-menu">
+          <img src="person.jpg" alt="profile photo" width="30px" />
+          <ul class="dropdown-menu">
+            <li><i class="fa-solid fa-user"></i><a href="#">Profile</a></li>
+            <li>
+              <i class="fa-regular fa-heart"></i><a href="#">Liked Profile</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-download"></i
+              ><a href="#">Download Profile</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-lock"></i><a href="#">Change Password</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-right-from-bracket"></i
+              ><a href="#">Logout</a>
+            </li>
+          </ul>
         </div>
-        <div class="right-menu">
-            <a href="#">Home</a>
-            <a href="#">Search</a>
-            <a href="#">Pricing Plan</a>
-            <a href="#">Contact Us</a>
-            <select name="language">
-                <option value="english">EN</option>
-                <option value="marathi">MR</option>
-                <option value="hindi">HI</option>
-            </select>
-            <div class="profile-menu">
-                <img src="person.jpg" alt="profile photo" width="30px">
-                <ul class="dropdown-menu">
-                    <li><i class="fa-solid fa-user"></i><a href="#">Profile</a></li>
-                    <li><i class="fa-regular fa-heart"></i><a href="#">Liked Profile</a></li>
-                    <li><i class="fa-solid fa-download"></i><a href="#">Download Profile</a></li>
-                    <li><i class="fa-solid fa-lock"></i><a href="#">Change Password</a></li>
-                    <li><i class="fa-solid fa-right-from-bracket"></i><a href="#">Logout</a></li>
-                </ul>
-            </div>
-        </div>
+      </div>
     </nav>
 
     <!-- Main content -->
     <div class="main-content">
-        <div class="content">
-            <div class="heading">
-                <p>My Profile Details</p>
-                <button class="edit-btn">Edit</button>
-            </div>
-    
-            <div>
-                <div class="section-heading">
-                    <p class="">V. Megha Akash</p>
-                    <p class="color-gray">Reg. No. VRE233</p>
-                </div>
-                <div class="flex">
-                    <div class="flex-item">
-                        <div class="feed">
-                            <span class="color-gray">Email</span>
-                            <p>meghaakash@gmail.com</p>
-                        </div>
-                        <div class="feed" class="feed" class="feed">
-                            <span class="color-gray">Age</span>
-                            <p>28 years</p>
-                        </div>
-                        <div class="feed" class="feed" class="feed">
-                            <span class="color-gray">Height</span>
-                            <p>5.8inch</p>
-                        </div>
-                        <div class="feed" class="feed" class="feed">
-                            <span class="color-gray">Caste</span>
-                            <p>MBC</p>
-                        </div>
-                        <div class="feed" class="feed" class="feed">
-                            <span class="color-gray">Career</span>
-                            <p>Software Engineer HCL Technology Limited</p>
-                        </div>
-                    </div>
-                    <div class="flex-item">
-                        <div class="feed" class="feed">
-                            <span class="color-gray">Phone</span>
-                            <p>+91 8735485849</p>
-                        </div>
-                        <div class="feed" class="feed">
-                            <span class="color-gray">Star</span>
-                            <p>Hastam</p>
-                        </div>
-                        <div class="feed" class="feed">
-                            <span class="color-gray">Qualificaion</span>
-                            <p>B.sc M.sc</p>
-                        </div>
-                        <div class="feed" class="feed">
-                            <span class="color-gray">Family Property</span>
-                            <p>Own House, Land</p>
-                        </div>
-                        <div class="feed" class="feed">
-                            <span class="color-gray">Salary</span>
-                            <p>40,000/-</p>
-                        </div>
-                    </div>
-                    <div class="flex-item">
-                        <div class="feed">
-                            <span class="color-gray">Date Of Birth</span>
-                            <p>12 Feb 1994</p>
-                        </div>
-                        <div class="feed">
-                            <span class="color-gray">Marriage Status</span>
-                            <p>InMarried</p>
-                        </div>
-                        <div class="feed">
-                            <span class="color-gray">Color</span>
-                            <p>White</p>
-                        </div>
-                        <div class="feed">
-                            <span class="color-gray">Type of Food</span>
-                            <p>Vagetarian</p>
-                        </div>
-                        <div class="feed">
-                            <span class="color-gray">Expectation</span>
-                            <p>40,000/- Per Month</p>
-                        </div>
-                    </div>
-                    <div class="flex-item">
-                        <div class="profile">
-                            <img src="person.jpg" alt="">
-                        </div>
-                        <div class="select-image">
-                            <div class="image">
-                                <img src="person.jpg" alt="">
-                            </div>
-                            <div class="image">
-                                <img src="person.jpg" alt="">
-                            </div>
-                            <div class="image">
-                                <img src="person.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    
-                <!-- Family Information -->
-                <div class="section-heading">
-                    Family Information
-                </div>
-                <div class="flex">
-                    <div class="flex-item">
-                        <div class="feed">
-                            <span class="color-gray">Father's Name</span>
-                            <p>B. Venkatraman</p>
-                        </div>
-                        <div class="feed">
-                            <span class="color-gray">Father's Profession</span>
-                            <p>Farmer</p>
-                        </div>
-                        <div class="feed">
-                            <span class="color-gray">Brothers</span>
-                            <p>2</p>
-                        </div>
-                        <div class="feed">
-                            <span class="color-gray">Sisters</span>
-                            <p>1</p>
-                        </div>
-                    </div>
-                    <div class="flex-item">
-                        <div class="feed">
-                            <span class="color-gray">Mother's Name</span>
-                            <p>Vasantha Gokilam</p>
-                        </div>
-                        <div class="feed">
-                            <span class="color-gray">Mother's Profession</span>
-                            <p>House Wife</p>
-                        </div>
-                        <div class="feed">
-                            <span class="color-gray">Elder Brother</span>
-                            <p>1</p>
-                        </div>
-                        <div class="feed">
-                            <span class="color-gray">Elder Sister</span>
-                            <p>0</p>
-                        </div>
-                    </div>
-                    <div class="flex-item">
-                        <div class="feed">
-                            <span class="color-gray">Father's Native</span>
-                            <p>Coimbatore</p>
-                        </div>
-                        <div class="feed">
-                            <span class="color-gray">Phone Number</span>
-                            <p>1234567890</p>
-                        </div>
-                        <div class="feed">
-                            <span class="color-gray">Younger Brother</span>
-                            <p>1</p>
-                        </div>
-                        <div class="feed">
-                            <span class="color-gray">Younger Sister</span>
-                            <p>1</p>
-                        </div>
-                    </div>
-                    <div class="flex-item">
-                        <div class="feed">
-                            <span class="color-gray">Mother's Native</span>
-                            <p>Coimbatore</p>
-                        </div>
-                        <div class="feed">
-                            <span class="color-gray">Address</span>
-                            <p>3/363 A-10 Mahalakshmi Avenue, West Arasur, Coimbatore</p>
-                        </div>
-                        <div class="feed">
-                            <span class="color-gray">Married</span>
-                            <p>1</p>
-                        </div>
-                        <div class="feed">
-                            <span class="color-gray">Married</span>
-                            <p>0</p>
-                        </div>
-                    </div>
-                </div>
-    
-                <!-- Horoscope Information -->
-                <div class="section-heading">
-                    Horoscope Information
-                </div>
-                <div class="flex">
-                    <div class="flex-item">
-                        <div class="feed">
-                            <span class="color-gray">Zodiac sign</span>
-                            <p>Scorpio</p>
-                        </div>
-                        <div class="feed">
-                            <span class="color-gray">Day</span>
-                            <p>Wednesday</p>
-                        </div>
-                        <div class="feed">
-                            <span class="color-gray">Birtplace</span>
-                            <p>Coimbatore</p>
-                        </div>
-                    </div>
-                    <div class="flex-item">
-                        <div class="feed">
-                            <span class="color-gray">Tamil year</span>
-                            <p>Srimukha</p>
-                        </div>
-                        <div class="feed">
-                            <span class="color-gray">Birt Time</span>
-                            <p>02:27 PM</p>
-                        </div>
-                        <div class="feed">
-                            <span class="color-gray">Presence of natal Direction</span>
-                            <p>Wednesday, Day : 01 Month : 06 Year : 08</p>
-                        </div>
-                    </div>
-                    <div class="flex-item">
-                        <div class="feed">
-                            <span class="color-gray">Tamil Month</span>
-                            <p>Audi</p>
-                        </div>
-                        <div class="feed">
-                            <span class="color-gray">Star/Foot</span>
-                            <p>Kettai</p>
-                        </div>
-                    </div>
-                    <div class="flex-item">
-                        <div class="feed">
-                            <span class="color-gray">Udayati Nazhikar</span>
-                            <p>Lorem, ipsum dolor.</p>
-                        </div>
-                        <div class="feed">
-                            <span class="color-gray">Ascendant (Lakhan)</span>
-                            <p>Scorpio</p>
-                        </div>
-                    </div>
-                </div>
-    
-                <!-- Horoscope Chart -->
-                <div class="section-heading">
-                    Horoscope Chart
-                </div>
-                <div class="flex">
-                    <div class="chart-item">
-                        <table class="chart" border="1">
-                            <tr>
-                                <td>-</td>
-                                <td>-</td>
-                                <td>lorem</td>
-                                <td>Lorem, ipsum.</td>
-                            </tr>
-                            <tr>
-                                <td>Lorem.</td>
-                                <td colspan="2" rowspan="2">Lorem.</td>
-                                <td>Lorem.</td>
-                            </tr>
-                            <tr>
-                                <td>-</td>
-                                <td>Lorem.</td>
-                            </tr>
-                            <tr>
-                                <td>-</td>
-                                <td>Lorem, ipsum dolor.</td>
-                                <td>-</td>
-                                <td>Lorem, ipsum.</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="chart-item">
-                        <table class="chart" border="1">
-                            <tr>
-                                <td>-</td>
-                                <td>Lorem.</td>
-                                <td>Lorem, ipsum dolor.</td>
-                                <td>-</td>
-                            </tr>
-                            <tr>
-                                <td>-</td>
-                                <td colspan="2" rowspan="2">Lorem.</td>
-                                <td>-</td>
-                            </tr>
-                            <tr>
-                                <td>Lorem.</td>
-                                <td>-</td>
-                            </tr>
-                            <tr>
-                                <td>Lorem.</td>
-                                <td>Lorem, ipsum.</td>
-                                <td>Lorem, ipsum dolor.</td>
-                                <td>Lorem.</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-            </div>
+      <div class="content">
+        <div class="heading">
+          <p>My Profile Details</p>
+          <button class="edit-btn">Edit</button>
         </div>
+
+        <div>
+          <div class="section-heading">
+            <p class="">V. Megha Akash</p>
+            <p class="color-gray">Reg. No. VRE233</p>
+          </div>
+
+          <!-- Personal Information -->
+          <table>
+            <tr>
+              <td>
+                <span class="color-gray">Email</span><br />
+                <span>meghaakash@gmail.com</span>
+              </td>
+              <td>
+                <span class="color-gray">Phone</span><br />
+                <span>+91 8735485849</span>
+              </td>
+              <td>
+                <span class="color-gray">Date Of Birth</span><br />
+                <span>12 Feb 1994</span>
+              </td>
+              <td rowspan="4">
+                <img src="person.jpg" alt="" width="70%">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="color-gray">Age</span><br />
+                <span>28 years</span>
+              </td>
+              <td>
+                <span class="color-gray">Star</span><br />
+                <span>Hastam</span>
+              </td>
+              <td>
+                <span class="color-gray">Marriage Status</span><br />
+                <span>UnMarried</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="color-gray">Height</span><br />
+                <span>5.8inch</span>
+              </td>
+              <td>
+                <span class="color-gray">Qualificaion</span><br />
+                <span>B.sc M.sc</span>
+              </td>
+              <td>
+                <span class="color-gray">Color</span><br />
+                <span>White</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="color-gray">Caste</span><br />
+                <span>MBC</span>
+              </td>
+              <td>
+                <span class="color-gray">Family Property</span><br />
+                <span>Own House, Land</span>
+              </td>
+              <td>
+                <span class="color-gray">Type of Food</span><br />
+                <span>Vagetarian</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="color-gray">Career</span><br />
+                <span>Software Engineer HCL Technology Limited</span>
+              </td>
+              <td>
+                <span class="color-gray">Salary</span><br />
+                <span>40,000/-</span>
+              </td>
+              <td>
+                <span class="color-gray">Expectation</span><br />
+                <span>40,000/- Per Month</span>
+              </td>
+              <td>
+                <img src="person.jpg" alt="" width="21%">
+                <img src="person.jpg" alt="" width="21%">
+                <img src="person.jpg" alt="" width="21%">
+              </td>
+            </tr>
+          </table>
+
+          <!-- Family Information -->
+          <div class="section-heading">Family Information</div>
+          <table>
+            <tr>
+              <td>
+                <span class="color-gray">Father's Name</span><br />
+                <span>B. Venkatraman</span>
+              </td>
+              <td>
+                <span class="color-gray">Mother's Name</span><br />
+                <span>Vasantha Gokilam</span>
+              </td>
+              <td>
+                <span class="color-gray">Father's Native</span><br />
+                <span>Coimbatore</span>
+              </td>
+              <td>
+                <span class="color-gray">Mother's Native</span><br />
+                <span>Coimbatore</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="color-gray">Father's Profession</span><br />
+                <span>Farmer</span>
+              </td>
+              <td>
+                <span class="color-gray">Mother's Profession</span><br />
+                <span>House Wife</span>
+              </td>
+              <td>
+                <span class="color-gray">Phone Number</span><br />
+                <span>1234567890</span>
+              </td>
+              <td>
+                <span class="color-gray">Address</span><br />
+                <span
+                  >3/363 A-10 Mahalakshmi Avenue, West Arasur, Coimbatore</span
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="color-gray">Brothers</span><br />
+                <span>2</span>
+              </td>
+              <td>
+                <span class="color-gray">Elder Brother</span><br />
+                <span>1</span>
+              </td>
+              <td>
+                <span class="color-gray">Younger Brother</span><br />
+                <span>1</span>
+              </td>
+              <td>
+                <span class="color-gray">Married</span><br />
+                <span>1</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="color-gray">Sisters</span><br />
+                <span>1</span>
+              </td>
+              <td>
+                <span class="color-gray">Elder Sister</span><br />
+                <span>0</span>
+              </td>
+              <td>
+                <span class="color-gray">Younger Sister</span><br />
+                <span>1</span>
+              </td>
+              <td>
+                <span class="color-gray">Married</span><br />
+                <span>0</span>
+              </td>
+            </tr>
+          </table>
+          <!-- Horoscope Information -->
+          <div class="section-heading">Horoscope Information</div>
+          <table>
+            <tr>
+              <td>
+                <span class="color-gray">Zodiac sign</span><br />
+                <span>Scorpio</span>
+              </td>
+              <td>
+                <span class="color-gray">Tamil year</span><br />
+                <span>Srimukha</span>
+              </td>
+              <td>
+                <span class="color-gray">Tamil Month</span><br />
+                <span>Audi</span>
+              </td>
+              <td>
+                <span class="color-gray">Udayati Nazhikar</span><br />
+                <span>Lorem, ipsum dolor</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="color-gray">Day</span><br />
+                <span>Wednesday</span>
+              </td>
+              <td>
+                <span class="color-gray">Birth Time</span><br />
+                <span>02:27 PM</span>
+              </td>
+              <td>
+                <span class="color-gray">Star/Foot</span><br />
+                <span>Kettai</span>
+              </td>
+              <td>
+                <span class="color-gray">Ascendant (Lakhan)</span><br />
+                <span>Scorpio</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="color-gray">Birtplace</span><br />
+                <span>Coimbatore</span>
+              </td>
+              <td>
+                <span class="color-gray">Presence of natal Direction</span
+                ><br />
+                <span>Wednesday, Day : 01 Month : 06 Year : 08</span>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
     </div>
 
     <!-- Footer -->
     <div class="footer">
-        <div>
-            <p>Copyright &copy; Trichy Vayalur Road Reddy Trust All rightd reserved.</p>
-        </div>
-        <div>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-        </div>
+      <div>
+        <p>
+          Copyright &copy; Trichy Vayalur Road Reddy Trust All rightd reserved.
+        </p>
+      </div>
+      <div>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
     </div>
-</body>
+  </body>
 </html>
